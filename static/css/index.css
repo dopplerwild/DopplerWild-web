@@ -27,6 +27,38 @@ body {
   margin-top: 1rem;
 }
 
+.author-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 1.25rem;
+}
+
+.author-row span {
+  white-space: nowrap;
+}
+
+.publication-affiliation {
+  margin-top: 0.5rem;
+  font-size: 1.15rem;
+}
+
+.publication-lab {
+  margin-top: 0.25rem;
+  font-size: 1.1rem;
+}
+
+.publication-lab a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.publication-lab a:hover,
+.publication-lab a:focus {
+  color: #d5eef3;
+}
+
 .publication-links {
   display: flex;
   flex-wrap: wrap;
